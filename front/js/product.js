@@ -66,7 +66,7 @@ function cartProduct(data) {
             _id : id,
             price : data.price,
         }
-
+    
         let addToLocalStorage = JSON.parse(localStorage.getItem("products"))
 
         //***** Gestion du warning *****//
@@ -116,3 +116,5 @@ function warningConfirm() {
     document.querySelector(".item__content__settings__alert").appendChild(warning)
     setTimeout(function() {warning.remove()}, 2000)
 }
+
+
