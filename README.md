@@ -6,14 +6,9 @@ Construisez un site e-commerce en JavaScript
 
 Votre client est Kanap, une marque de canapés qui vend ses produits depuis sa boutique exclusivement. Aujourd’hui, celle-ci souhaiterait avoir une plateforme de e-commerce en plus de sa boutique physique pour vendre ses produits sur Internet. 
 
-### Back end Prerequisites ###
+### Conditions préalables pour le back-end ###
+Vous aurez besoin d’avoir Node et installé localement sur votre machine.npm
 
-You will need to have Node and `npm` installed locally on your machine.
+### Installation back-end ###
+Clonez ce référentiel. Dans le dossier « Précédent » du projet, exécutez . Vous peut ensuite exécuter le serveur avec . Le serveur doit fonctionner avec le port par défaut. Si l' Le serveur s’exécute sur un autre port pour une raison quelconque, ceci est imprimé dans le au démarrage du serveur, par exemple .npm installnode serverlocalhost3000Listening on port 3001
 
-### Back end Installation ###
-
-Clone this repo. From the "back" folder of the project, run `npm install`. You 
-can then run the server with `node server`. 
-The server should run on `localhost` with default port `3000`. If the
-server runs on another port for any reason, this is printed to the
-console when the server starts, e.g. `Listening on port 3001`.
