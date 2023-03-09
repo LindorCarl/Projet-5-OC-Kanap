@@ -2,10 +2,9 @@
 const KanapData = fetch("http://localhost:3000/api/products")
 
 KanapData.then ((response) => response.json())
-. then((data) => {
-    console.log(data);
+.then((data) => {
         //Appel de la fonction d’affichage des produits
-    kanapArticle(data);
+    kanapArticle(data)
 })
 .catch(err => console.log("Oh no", err))
 

@@ -57,14 +57,9 @@ function cartProduct(data) {
     
         //Récupération des valeurs choisies 
         let objectProduct = {
-            altTxt : data.altTxt,
             color : colorsValue,
-            description : data.description,
-            imageUrl : data.imageUrl,
-            name : data.name,
             quantity : quantityValue,
-            _id : id,
-            price : data.price,
+            _id : id
         }
     
         let addToLocalStorage = JSON.parse(localStorage.getItem("products"))
