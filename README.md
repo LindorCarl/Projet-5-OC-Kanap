@@ -12,5 +12,9 @@ Votre client est Kanap, une marque de canapés qui vend ses produits depuis sa b
 Installez toutes les dépendances avec npm.
 
 ### Installation back-end ###
-Clonez ce référentiel. Dans le dossier « Précédent » du projet, exécutez . Vous peut ensuite exécuter le serveur avec . Le serveur doit fonctionner avec le port par défaut. Si l' Le serveur s’exécute sur un autre port pour une raison quelconque, ceci est imprimé dans le au démarrage du serveur, par exemple .npm installnode serverlocalhost3000Listening on port 3001
+Ouvrez le répertoire back depuis le terminal, puis :
+`npm install`
+
+Pour lancer le server :
+`node server`
 
