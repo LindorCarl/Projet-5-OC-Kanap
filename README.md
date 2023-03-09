@@ -8,10 +8,6 @@ Votre client est Kanap, une marque de canapés qui vend ses produits depuis sa b
 ![logo](https://user-images.githubusercontent.com/67756654/195331749-f9cf950d-3ece-4f8a-b9bc-6c8d09d3b49c.png)
 
 ### Conditions préalables pour le back-end ###
-Vous aurez besoin d’avoir Node et installé localement sur votre machine.npm
-
-### Installation :
-
 `Node` et `npm` doivent être installés localement sur votre machine.\
 Installez toutes les dépendances avec npm.
 
